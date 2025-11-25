@@ -21,7 +21,7 @@ if (process.argv[2] == "prod") {
 }
 
 app.get(`${apiPath}/board`, (req, res) => {
-  res.send({ title: "노드 api 서버 update!!!!" });
+  res.send({ title: "Github Actions Deploy Test!!!!" });
 });
 
 // 정적인 파일 등록
